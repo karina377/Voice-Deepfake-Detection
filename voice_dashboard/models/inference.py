@@ -7,7 +7,7 @@ import gdown
 import librosa
 import streamlit as st
 import torch
-from transformers import WavLMForSequenceClassification
+from transformers import WavLMConfig, WavLMForSequenceClassification
 
 
 # =========================================================
