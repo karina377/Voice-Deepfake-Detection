@@ -107,16 +107,20 @@ def load_model():
 
     model_path = ensure_model_exists()
 
-    st.write("Step 3: Loading WavLM architecture from Hugging Face...")
+    st.write("Step 3: Loading WavLM configuration...")
 
-    model = WavLMForSequenceClassification.from_pretrained(
+    model_config = WavLMConfig.from_pretrained(
         CONFIG["model_name"],
         num_labels=2
     )
 
-    st.write("Step 4: WavLM architecture loaded.")
+    st.write("Step 4: Creating WavLM architecture...")
 
-    st.write("Step 5: Reading trained checkpoint...")
+    model = WavLMForSequenceClassification(model_config)
+
+    st.write("Step 5: WavLM architecture created.")
+
+    st.write("Step 6: Reading trained checkpoint...")
 
     checkpoint = torch.load(
         model_path,
@@ -124,9 +128,6 @@ def load_model():
         weights_only=False
     )
 
-    st.write("Step 6: Checkpoint loaded into memory.")
-
-    # תמיכה בצורות שמירה שונות
     if isinstance(checkpoint, dict):
         if "state_dict" in checkpoint:
             checkpoint = checkpoint["state_dict"]
