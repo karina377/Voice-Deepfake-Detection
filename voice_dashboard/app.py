@@ -12,9 +12,21 @@ from components.history import render_statistics, render_history_table,render_la
 from database import init_db, insert_prediction, get_history, get_statistics, clear_history
 
 
-def load_css(file_path: str):
+from pathlib import Path
+import streamlit as st
+
+
+BASE_DIR = Path(__file__).resolve().parent
+
+
+def load_css(filename: str) -> None:
+    file_path = BASE_DIR / filename
+
     with open(file_path, "r", encoding="utf-8") as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        st.markdown(
+            f"<style>{f.read()}</style>",
+            unsafe_allow_html=True
+        )
 
 
 st.set_page_config(
