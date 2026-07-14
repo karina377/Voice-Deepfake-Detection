@@ -1,0 +1,2 @@
+experiment_name,model_name,learning_rate,batch_size,epochs,freeze_feature_extractor,freeze_encoder,test_loss,test_accuracy,test_precision,test_recall,test_f1,test_auc,confusion_matrix
+wavlm_exp_001,microsoft/wavlm-base,1e-05,4,5,True,False,0.029494496859814506,0.9939872228485531,0.9984848484848485,0.9894894894894894,0.9939668174962293,0.9991001159172717,"[[1327, 2], [14, 1318]]"

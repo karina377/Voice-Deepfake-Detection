@@ -1,0 +1,8 @@
+attack_type,aasist,rawnet3,wav2vec2,wavlm,total_errors_all_models
+real,244,243,9,2,498
+waveform_concatenation,19,176,0,1,196
+neural_vocoder_autoregressive,8,141,7,7,163
+neural_vocoder_nonautoregressive,1,140,0,0,141
+traditional_vocoder,10,114,3,3,130
+unknown,0,75,0,1,76
+elevenlabs_fake,3,11,1,2,17

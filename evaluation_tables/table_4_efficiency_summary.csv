@@ -1,0 +1,5 @@
+model_display,model_file_size_MB_os,num_parameters,memory_size_MB,ram_used_MB,peak_gpu_memory_MB,avg_inference_time_per_file_sec,tokens_or_frames,representation_type,batch_size
+WavLM,360.89,94579314,360.79,563.84,679.73,0.0269,199.0,Transformer tokens,4
+Wav2Vec2,360.84,94569090,360.75,59.77,677.18,0.0291,Not applicable,No explicit tokenization,4
+AASIST,1.22,297866,1.14,128.77,1111.24,0.0048,Not applicable,No explicit tokenization,4
+RawNet3,6.36,1648522,6.29,85.38,609.38,0.001,2667.0,CNN frames after feature extraction,8

@@ -1,0 +1,1 @@
+recording_id,attack_type,true_label,aasist,rawnet3,wav2vec2,wavlm,num_models_failed,num_models_correct,failed_models,correct_models

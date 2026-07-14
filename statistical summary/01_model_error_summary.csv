@@ -1,0 +1,5 @@
+model_name,total_files,correct_files,failed_files,error_rate_%,accuracy_%
+aasist,2661,2376,285,10.71,89.29
+rawnet3,2661,1761,900,33.82,66.18
+wav2vec2,2661,2641,20,0.75,99.25
+wavlm,2661,2645,16,0.6,99.4

@@ -1,0 +1,5 @@
+model_name,total_files,correct_files,failed_files,error_rate_%,accuracy_%,model_file_size_MB_os,num_parameters,memory_size_MB,avg_inference_time_per_file_sec,peak_gpu_memory_MB
+aasist,2661,2376,285,10.71,89.29,1.22,297866,1.14,0.0048,1111.24
+rawnet3,2661,1761,900,33.82,66.18,6.36,1648522,6.29,0.001,609.38
+wav2vec2,2661,2641,20,0.75,99.25,360.84,94569090,360.75,0.0291,677.18
+wavlm,2661,2645,16,0.6,99.4,360.89,94579314,360.79,0.0269,679.73

@@ -1,0 +1,7 @@
+recording_id,attack_type,true_label,aasist,rawnet3,wav2vec2,wavlm,num_models_failed,num_models_correct,failed_models,correct_models
+fake_common_voice_he_41616916,elevenlabs_fake,1,True,True,False,True,3,1,"aasist, rawnet3, wavlm",wav2vec2
+DF_E_2676965,neural_vocoder_autoregressive,1,False,True,True,True,3,1,"rawnet3, wav2vec2, wavlm",aasist
+DF_E_2742866,neural_vocoder_autoregressive,1,False,True,True,True,3,1,"rawnet3, wav2vec2, wavlm",aasist
+common_voice_he_39541220,real,0,True,False,True,True,3,1,"aasist, wav2vec2, wavlm",rawnet3
+DF_E_2169262,traditional_vocoder,1,False,True,True,True,3,1,"rawnet3, wav2vec2, wavlm",aasist
+DF_E_2527373,traditional_vocoder,1,False,True,True,True,3,1,"rawnet3, wav2vec2, wavlm",aasist

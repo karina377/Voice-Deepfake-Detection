@@ -1,0 +1,5 @@
+model_display,learning_rate,batch_size,epochs,fine_tuning
+WavLM,1e-05,4,5,No additional tuning
+Wav2Vec2,1e-05,4,5,No additional tuning
+AASIST,0.0001,4,30,Epochs increased from 5 to 30
+RawNet3,0.0001,8,5,No additional tuning

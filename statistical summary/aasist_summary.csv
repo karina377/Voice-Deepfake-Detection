@@ -1,0 +1,2 @@
+experiment_name,model_name,learning_rate,batch_size,epochs,test_loss,test_accuracy,test_precision,test_recall,test_f1,test_auc,confusion_matrix
+aasist_exp_001,AASIST,0.0001,4,30,0.2328589111948695,0.8928974069898534,0.8410423452768729,0.9692192192192193,0.9005929543076386,0.9808877726484949,"[[1085, 244], [41, 1291]]"

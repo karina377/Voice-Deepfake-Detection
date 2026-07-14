@@ -1,0 +1,5 @@
+model_name,model_file_size_MB_os,num_parameters,memory_size_MB,ram_before_MB,ram_after_MB,ram_used_MB,peak_gpu_memory_MB,avg_inference_time_per_batch_sec,avg_inference_time_per_file_sec,tokens_or_frames,representation_type,batch_size,total_test_files,failed_files
+wavlm,360.89,94579314,360.79,1062.89,1626.73,563.84,679.73,0.1075,0.0269,199.0,Transformer tokens,4,2661,16
+wav2vec2,360.84,94569090,360.75,1651.5,1711.27,59.77,677.18,0.1163,0.0291,Not applicable,No explicit tokenization,4,2661,20
+aasist,1.22,297866,1.14,1810.68,1939.45,128.77,1111.24,0.0193,0.0048,Not applicable,No explicit tokenization,4,2661,285
+rawnet3,6.36,1648522,6.29,1722.93,1808.31,85.38,609.38,0.0083,0.001,2667.0,CNN frames after feature extraction,8,2661,900
