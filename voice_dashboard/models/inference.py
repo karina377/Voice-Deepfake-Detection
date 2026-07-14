@@ -63,9 +63,8 @@ def ensure_model_exists() -> Path:
     downloaded_file = gdown.download(
         url=drive_url,
         output=str(model_path),
-        quiet=False,
-        fuzzy=True
-    )
+        quiet=False
+        )
 
     if downloaded_file is None:
         raise RuntimeError(
