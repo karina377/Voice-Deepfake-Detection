@@ -113,4 +113,4 @@ The database was developed to:
 
 The following diagram illustrates the database schema used to design the SQLite database.
 
-![Database ERD](https://raw.githubusercontent.com/karina377/Voice-Deepfake-Detection/main/database/my_final_erd.png)
+![Database ERD](database/erd_final.png)
