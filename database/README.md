@@ -9,6 +9,11 @@ The project database was implemented using **SQLite** to organize and manage the
 The folder also includes the **Entity-Relationship Diagram (ERD)**, which illustrates the database schema and the relationships between the different entities. The ERD served as the basis for designing and implementing the final SQLite database.
 
 ---
+## Entity-Relationship Diagram (ERD)
+
+The following diagram illustrates the database schema used to design the SQLite database.
+
+![Database ERD](./my_final_erd.png)
 
 # Folder Contents
 
@@ -17,7 +22,7 @@ The folder also includes the **Entity-Relationship Diagram (ERD)**, which illust
 | `sql_database.ipynb` | Notebook used to create and populate the SQLite database. |
 | `final_voice_project.db` | Final SQLite database containing the project metadata. |
 | `my_final_erd.png` | Entity-Relationship Diagram (ERD) used to design the database schema. |
-| `Screenshot 2026-03-29 at ...` | Screenshot of the implemented SQLite database. |
+| `erd_final.png` | Screenshot of the implemented SQLite database. |
 
 ---
 
@@ -109,8 +114,4 @@ The database was developed to:
 
 
 
-## Entity-Relationship Diagram (ERD)
 
-The following diagram illustrates the database schema used to design the SQLite database.
-
-![Database ERD](database/erd_final.png)
