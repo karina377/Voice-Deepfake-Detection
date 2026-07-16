@@ -245,7 +245,7 @@ These technologies were used throughout the project for dataset preparation, mod
 - The dashboard is optimized for demonstration purposes and CPU inference.
 
 
-## 10. Installation and Usage
+## Installation and Usage
 
 The project can be executed locally by following the steps below.
 
