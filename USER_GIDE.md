@@ -1,9 +1,13 @@
-# User Guide
+## User Guide
 
-This repository includes a detailed **User Guide** available in both **Markdown** and **PDF** formats.
+A detailed user guide is available in both **Markdown** and **PDF** formats.
 
 -  **PDF version:** [User Guide.pdf](docs/User%20Guide.pdf)
 
-> **Note:** GitHub does not display PDF files as interactive documents. To view the PDF version properly, you may need to download the file first by clicking **Download** from the GitHub interface.
+> **Note:** If you are viewing the PDF directly in GitHub, hyperlinks may not be clickable. Please download the PDF to access the embedded links or copy the URL into your web browser.
 
-For the best browsing experience directly within GitHub, we recommend using the Markdown version of the guide.
+## Live Dashboard
+
+The SmartDetect AI dashboard is available online at:
+
+**[https://voice-deepfake-detection-airrw9l4kv2pqobhb5akax.streamlit.app/](https://voice-deepfake-detection-airrw9l4kv2pqobhb5akax.streamlit.app/)**
