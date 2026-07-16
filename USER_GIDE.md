@@ -2,7 +2,6 @@
 
 This repository includes a detailed **User Guide** available in both **Markdown** and **PDF** formats.
 
--  **Markdown version:** [USER_GUIDE.md](USER_GUIDE.md)
 -  **PDF version:** [User Guide.pdf](docs/User%20Guide.pdf)
 
 > **Note:** GitHub does not display PDF files as interactive documents. To view the PDF version properly, you may need to download the file first by clicking **Download** from the GitHub interface.
