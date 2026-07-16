@@ -37,6 +37,11 @@ Following a comprehensive evaluation process, **WavLM** was selected as the fina
 
 This repository contains all project components, including dataset preparation, model development, statistical analyses, database implementation, deployment, and user documentation.
 
+## Research Disclaimer
+
+This project was developed as part of a final academic project in Information Systems in collaboration with the Israel National Cyber Directorate.
+
+The repository is intended for research, educational, and demonstration purposes only. It is not designed or validated for production use or real-world security-critical deployments.
 
 ## Background
 
@@ -200,7 +205,13 @@ The project was developed using modern machine learning frameworks, speech proce
 
 These technologies were used throughout the project for dataset preparation, model development, evaluation, deployment, and documentation.
 
+## Known Limitations
 
+- This repository presents an academic research prototype.
+- The selected WavLM model was evaluated on the datasets described in this repository.
+- Performance may vary on unseen datasets, languages, speakers, or newly emerging voice synthesis technologies.
+- The system currently performs binary classification (Real / AI-Generated Voice).
+- The dashboard is optimized for demonstration purposes and CPU inference.
 
 
 ## 10. Installation and Usage
@@ -254,7 +265,13 @@ The dashboard supports the following audio formats:
 - OGG (.ogg)
 - M4A (.m4a)
 
+## Tested Environment
 
+- Operating System: Windows / macOS / Linux
+- Python: 3.11+
+- PyTorch: 2.x
+- Transformers: 5.x
+- Streamlit: 1.x
 
 ## 11. Google Drive Resources
 
