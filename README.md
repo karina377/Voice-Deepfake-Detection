@@ -75,7 +75,7 @@ One of the main challenges of the project was the limited availability of Hebrew
 
 The resulting system demonstrates a complete end-to-end solution for AI voice deepfake detection, from dataset construction and model evaluation to deployment as a real-time web application.
 
-## 3. Repository Structure
+## Repository Structure
 
 The repository is organized into modular components that represent the different stages of the project, from dataset preparation to model deployment.
 
@@ -117,7 +117,7 @@ Each major directory contains its own **README.md** file with detailed documenta
 
 
 
-## 4. System Architecture
+## System Architecture
 
 SmartDetect AI follows an end-to-end machine learning pipeline that covers every stage required for AI voice deepfake detection, from dataset construction to real-time deployment.
 
@@ -139,7 +139,7 @@ This modular architecture enables each stage of the project to be developed, eva
 
 For additional implementation details, refer to the README files in the corresponding project directories.
 
-## 5. Dataset Development
+## Dataset Development
 
 The project dataset was constructed by combining multiple data sources to create a diverse and balanced collection of authentic and AI-generated voice recordings.
 
@@ -156,7 +156,7 @@ Due to GitHub storage limitations, the complete dataset is hosted externally and
 For additional information regarding the dataset construction process, refer to the **data preparation** directory.
 
 
-## 6. Deep Learning Models
+## Deep Learning Models
 
 Four state-of-the-art deep learning architectures were implemented and evaluated during this project to determine the most suitable model for voice deepfake detection.
 
@@ -174,7 +174,7 @@ Following the evaluation process, **WavLM** was selected as the final deployment
 Detailed information about the implementation, training process, and characteristics of each model is available in the **models** directory.
 
 
-## 7. Model Evaluation
+## Model Evaluation
 
 All evaluated models were tested using the same dataset split and identical evaluation methodology to ensure a fair and consistent comparison.
 
@@ -196,7 +196,7 @@ In addition to the quantitative metrics, detailed recording-level analyses were 
 The complete evaluation results, statistical analyses, comparison tables, and visualizations are available in the **statistical summary** directory.
 
 
-## 8. Dashboard Deployment
+## Dashboard Deployment
 
 The selected **WavLM** model was deployed as an interactive web application using **Streamlit**, providing real-time voice deepfake detection through a simple and user-friendly interface.
 
@@ -215,7 +215,7 @@ A complete description of the dashboard implementation and its components is ava
 
 
 
-## 9. Technologies Used
+## Technologies Used
 
 The project was developed using modern machine learning frameworks, speech processing libraries, and web technologies.
 
@@ -305,7 +305,7 @@ The dashboard supports the following audio formats:
 - Transformers: 5.x
 - Streamlit: 1.x
 
-## 11. Google Drive Resources
+## Google Drive Resources
 
 Due to GitHub file size limitations, several project resources are hosted externally on Google Drive.
 
@@ -319,7 +319,7 @@ The following resources are available for download:
 These resources are required for users who wish to reproduce the experiments or run the project locally.
 
 
-## 12. Documentation
+## Documentation
 
 To keep the repository organized and easy to navigate, each major project module includes its own **README.md** file containing detailed documentation.
 
@@ -338,7 +338,7 @@ In addition, the repository includes a comprehensive User Guide available in bot
 This modular documentation structure allows readers to explore each stage of the project independently while keeping the main README concise and easy to follow.
 Each major project module contains its own README describing the implementation details, generated outputs, and workflow of that specific component.
 
-## 13. Live Dashboard
+## Live Dashboard
 
 A live version of the SmartDetect AI system is publicly available through Streamlit Community Cloud.
 
@@ -363,7 +363,7 @@ The online version provides the complete functionality of the deployed applicati
 
 
 
-## 14. Future Work
+## Future Work
 
 Although the developed system achieved strong performance, several improvements can further enhance its capabilities.
 
@@ -380,7 +380,7 @@ Possible future developments include:
 These improvements may further increase the accuracy, robustness, and practical applicability of the SmartDetect AI platform.
 
 
-## 15. Authors
+## Authors
 
 This project was developed as a final-year capstone project in the **Information Systems** program.
 
