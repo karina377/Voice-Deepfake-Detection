@@ -1,6 +1,6 @@
 ## User Guide
 
-A detailed user guide is available in both **Markdown** and **PDF** formats.
+A detailed user guide is available in **PDF** formats.
 
 -  **PDF version:** [User Guide.pdf](docs/User%20Guide.pdf)
 
