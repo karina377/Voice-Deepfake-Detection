@@ -357,7 +357,7 @@ The online application allows users to:
 
 The deployed dashboard uses the final WavLM model selected during the evaluation phase and performs real-time inference directly through the web interface.
 
-> **Insert Dashboard Screenshot Here**
+> **![SmartDetect AI Dashboard](docs/dashboard%20screenshot.png)**
 
 The online version provides the complete functionality of the deployed application without requiring any local installation.
 
