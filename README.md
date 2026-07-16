@@ -4,21 +4,28 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live-success)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
-1. Project Overview
-2. Background
-3. Repository Structure
-4. Dataset
-5. Deep Learning Models
-6. Model Evaluation
-7. Dashboard
-8. Technologies Used
-9. Installation
-10. Google Drive Resources
-11. Live Dashboard
-12. Documentation
-13. Future Work
-14. Authors
-15. Acknowledgments
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Highlights](#project-highlights)
+- [Research Disclaimer](#research-disclaimer)
+- [Background](#background)
+- [Repository Structure](#repository-structure)
+- [System Architecture](#system-architecture)
+- [Dataset Development](#dataset-development)
+- [Deep Learning Models](#deep-learning-models)
+- [Model Evaluation](#model-evaluation)
+- [Dashboard Deployment](#dashboard-deployment)
+- [Technologies Used](#technologies-used)
+- [Known Limitations](#known-limitations)
+- [Installation and Usage](#installation-and-usage)
+- [Google Drive Resources](#google-drive-resources)
+- [Documentation](#documentation)
+- [Live Dashboard](#live-dashboard)
+- [Future Work](#future-work)
+- [Authors](#authors)
 
 ## Project Overview
 
@@ -76,15 +83,26 @@ The repository is organized into modular components that represent the different
 Voice-Deepfake-Detection
 │
 ├── data preparation/
-├── models/
-├── statistical summary/
-├── database/
-├── voice_dashboard/
-├── docs/
+│   └── README.md
 │
+├── models/
+│   └── README.md
+│
+├── statistical summary/
+│   └── README.md
+│
+├── database/
+│   └── README.md
+│
+├── voice_dashboard/
+│   └── README.md
+│
+├── docs/
+│   └── User Guide.pdf
+│
+├── requirements.txt
 ├── USER_GUIDE.md
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 | Directory | Description |
@@ -246,6 +264,7 @@ Install all required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+The required Python packages are listed in **requirements.txt**, allowing the project environment to be recreated consistently across different operating systems. 
 
 ### Download Required Resources
 
@@ -294,8 +313,8 @@ The following resources are available for download:
 
 | Resource | Description | Link |
 |----------|-------------|------|
-| Final Dataset | Complete dataset used for training, validation, and testing | **https://drive.google.com/drive/folders/1p9mC1oFqkztd6VPfQ5rFUNLOULFIXrpf?usp=sharing** |
-| Trained WavLM Model | Final model used by the deployed dashboard | **https://drive.google.com/file/d/1fEh_y0MqQUDYNP7zRR8N3DKctvlC06Z5/view?usp=sharing** |
+| Final Dataset | Complete dataset used for training, validation, and testing | [Google Drive](https://drive.google.com/drive/folders/1p9mC1oFqkztd6VPfQ5rFUNLOULFIXrpf?usp=sharing) |
+| Trained WavLM Model | Final model used by the deployed dashboard | [Google Drive](https://drive.google.com/file/d/1fEh_y0MqQUDYNP7zRR8N3DKctvlC06Z5/view?usp=sharing) |
 
 These resources are required for users who wish to reproduce the experiments or run the project locally.
 
@@ -314,10 +333,10 @@ The available documentation includes:
 | **database/** | Database schema, ERD, and SQLite implementation. |
 | **voice_dashboard/** | Dashboard architecture, components, and deployment details. |
 
-In addition, the repository includes a comprehensive **User Guide** (`USER_GUIDE.md` / `User Guide.pdf`) describing how to use the deployed dashboard.
+In addition, the repository includes a comprehensive User Guide available in both Markdown (**USER_GUIDE.md**) and PDF (**docs/User Guide.pdf**) formats, describing how to install, configure, and use the deployed dashboard.
 
 This modular documentation structure allows readers to explore each stage of the project independently while keeping the main README concise and easy to follow.
-
+Each major project module contains its own README describing the implementation details, generated outputs, and workflow of that specific component.
 
 ## 13. Live Dashboard
 
@@ -325,7 +344,7 @@ A live version of the SmartDetect AI system is publicly available through Stream
 
 **Dashboard URL:**
 
-https://voice-deepfake-detection-airrw9l4kv2pqobhb5akax.streamlit.app/
+[Launch SmartDetect AI Dashboard](https://voice-deepfake-detection-airrw9l4kv2pqobhb5akax.streamlit.app/)
 
 The online application allows users to:
 
@@ -335,6 +354,8 @@ The online application allows users to:
 - Access previous analyses through the History page.
 - Explore statistical summaries through the Analytics page.
 - Review project and model information through the About page.
+
+The deployed dashboard uses the final WavLM model selected during the evaluation phase and performs real-time inference directly through the web interface.
 
 > **Insert Dashboard Screenshot Here**
 
@@ -379,3 +400,8 @@ This project was carried out in collaboration with the **Israel National Cyber D
 ### Institution
 
 The Max Stern Yezreel Valley College, Israel
+
+
+### GitHub Repository
+
+https://github.com/karina377/Voice-Deepfake-Detection
