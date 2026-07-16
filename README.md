@@ -391,7 +391,7 @@ This project was developed as a final-year capstone project in the **Information
 
 ### Academic Supervisor
 
-- **Dr. Keren Segal**
+- **Keren Segal**
 
 ### Collaboration
 
