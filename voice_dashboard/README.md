@@ -72,10 +72,10 @@ It initializes the dashboard, loads the required resources, and manages the over
 
 Contains the individual dashboard pages presented to the user, including:
 
-- Audio Analysis
-- Analytics
-- History
-- About
+- Audio Analysis(Dashboard Page)
+- Analytics Page
+- History Page
+- About Page
 
 Each page is implemented separately to improve readability and maintainability.
 
