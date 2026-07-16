@@ -3,7 +3,7 @@ from pathlib import Path
 import shutil
 
 # =======================
-# נתיבים שלך
+# נתיבים 
 # =======================
 CSV_PATH = "labeling_data.csv"
 AUDIO_DIR = Path("ASVspoof2021_DF_eval/flac")  # תיקיית ה-FLAC
@@ -14,7 +14,7 @@ OUT_DIR = Path("balanced_from_eval")           # יצירת דאטה חדש כא
 # =======================
 RANDOM = 42
 
-# אם אצלך יש בדיוק 5 סוגים כמו שהראית:
+
 ATTACK_TYPES = [
     "traditional_vocoder",
     "neural_vocoder_autoregressive",
@@ -116,7 +116,7 @@ print("\nSaved CSV:", balanced_csv_path)
 
 # =======================
 # 5) העתקת הקבצים לתיקייה חדשה לפי תיוג
-#    מבנה מוצע:
+#    מבנה :
 #    balanced_from_eval/
 #       real/
 #       fake/<attack_type>/
