@@ -348,4 +348,4 @@ This project was carried out in collaboration with the **Israel National Cyber D
 
 ### Institution
 
-Braude Academic College of Engineering, Israel
+The Max Stern Yezreel Valley College, Israel
