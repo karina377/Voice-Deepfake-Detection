@@ -264,8 +264,8 @@ The following resources are available for download:
 
 | Resource | Description | Link |
 |----------|-------------|------|
-| Final Dataset | Complete dataset used for training, validation, and testing | **Insert Google Drive Link** |
-| Trained WavLM Model | Final model used by the deployed dashboard | **Insert Google Drive Link** |
+| Final Dataset | Complete dataset used for training, validation, and testing | **https://drive.google.com/drive/folders/1p9mC1oFqkztd6VPfQ5rFUNLOULFIXrpf?usp=sharing** |
+| Trained WavLM Model | Final model used by the deployed dashboard | **https://drive.google.com/file/d/1fEh_y0MqQUDYNP7zRR8N3DKctvlC06Z5/view?usp=sharing** |
 
 These resources are required for users who wish to reproduce the experiments or run the project locally.
 
