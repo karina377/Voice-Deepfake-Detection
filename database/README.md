@@ -86,10 +86,10 @@ The **Recordings** table serves as the central entity in the database and mainta
 
 Each recording is linked to:
 
-- one source dataset;
-- one compression method;
-- one class label;
-- one spoofing attack type.
+- one source dataset
+- one compression method
+- one class label
+- one spoofing attack type
 
 This normalized database design minimizes data duplication, improves consistency, and simplifies future maintenance and analysis.
 
