@@ -8,7 +8,7 @@ source_folder = "/Users/karinapisarenko/Desktop/Karina/project/dataset_hebrew/he
 # תיקיית יעד
 target_folder = "/Users/karinapisarenko/Desktop/Karina/project/dataset_hebrew/he/selected"
 
-# כמה קבצים לקחת
+# כמות הקבצים 
 N = 1108
 
 # יצירת תיקיית יעד אם לא קיימת
