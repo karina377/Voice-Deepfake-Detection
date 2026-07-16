@@ -67,9 +67,9 @@ Voice-Deepfake-Detection
 ├── statistical summary/
 ├── database/
 ├── voice_dashboard/
+├── docs/
 │
 ├── USER_GUIDE.md
-├── User Guide.pdf
 ├── README.md
 └── requirements.txt
 ```
