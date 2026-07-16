@@ -1,5 +1,0 @@
-rank,model,accuracy_%,main_strength,final_decision
-1,WavLM,99.4,Highest accuracy and lowest error rate,Selected for deployment
-2,Wav2Vec2,99.25,"Very high accuracy, close to WavLM",Possible backup / ensemble candidate
-3,AASIST,89.29,Improved after fine-tuning and fast inference,Not selected
-4,RawNet3,66.18,Fastest inference but lowest detection performance,Not selected
