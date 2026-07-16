@@ -72,7 +72,7 @@ print("\n=== Unknown attack_type ===")
 print(df[df["attack_type"] == "unknown"]["label"].value_counts())
 
 # ==============================
-# 7. מקור הדאטה (ליתר ביטחון)
+# 7. מקור הדאטה 
 # ==============================
 print("\n=== Source Dataset Check ===")
 print(df["source_dataset"].value_counts())
@@ -95,15 +95,15 @@ print("\n=== Missing Values ===")
 print(df.isnull().sum())
 
 # ==============================
-# 10. (אופציונלי) אורך הקלטות
+# 10.  אורך הקלטות
 # ==============================
 import librosa
 
 durations = []
 
-# רק אם יש עמודת נתיב
+
 if "file_path" in df.columns:
-    sample_df = df.sample(min(200, len(df)))  # לא הכל (חוסך זמן)
+    sample_df = df.sample(min(200, len(df))) 
 
     for path in sample_df["file_path"]:
         try:
