@@ -76,7 +76,7 @@ Stores the spoofing attack category associated with each fake recording.
 | Field | Description |
 |------|-------------|
 | `attack_id` | Unique identifier of the attack type. |
-| `attack_type` | Spoofing attack category (e.g., Neural Vocoder, Traditional Vocoder, Waveform Concatenation, ElevenLabs, or Unknown). |
+| `attack_type` | Spoofing attack category (for example: Neural Vocoder, Traditional Vocoder, Waveform Concatenation, ElevenLabs or Unknown). |
 
 ---
 
