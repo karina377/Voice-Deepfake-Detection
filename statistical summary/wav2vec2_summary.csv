@@ -1,2 +1,0 @@
-experiment_name,model_name,learning_rate,batch_size,epochs,test_loss,test_accuracy,test_precision,test_recall,test_f1,test_auc,confusion_matrix
-wav2vec2_exp_001,facebook/wav2vec2-base,1e-05,4,5,0.03448178714096502,0.9924840285606915,0.9932330827067669,0.9917417417417418,0.9924868519909842,0.999598921720818,"[[1320, 9], [11, 1321]]"

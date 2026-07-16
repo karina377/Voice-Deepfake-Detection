@@ -1,2 +1,0 @@
-experiment_name,model_name,learning_rate,batch_size,epochs,test_loss,test_accuracy,test_precision,test_recall,test_f1,test_auc,confusion_matrix
-rawnet_style_exp_001,RawNet3-style,0.0001,8,5,0.6984793333051441,0.6617812852311161,0.7352941176470589,0.5067567567567568,0.6,0.7212703674328957,"[[1086, 243], [657, 675]]"
