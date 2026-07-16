@@ -1,4 +1,8 @@
 # SmartDetect AI – Voice Deepfake Detection System
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-success)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
 1. Project Overview
 2. Background
@@ -15,8 +19,6 @@
 13. Future Work
 14. Authors
 15. Acknowledgments
-
-# SmartDetect AI – Voice Deepfake Detection System
 
 ## Project Overview
 
@@ -36,6 +38,17 @@ Four state-of-the-art deep learning architectures were implemented and evaluated
 Following a comprehensive evaluation process, **WavLM** was selected as the final deployment model due to its superior balance between classification performance and computational efficiency.
 
 This repository contains all project components, including dataset preparation, model development, statistical analyses, database implementation, deployment, and user documentation.
+
+## Project Highlights
+
+- End-to-end AI voice deepfake detection pipeline
+- Custom Hebrew deepfake dataset generation
+- Four deep learning models evaluated
+- WavLM selected as the final deployment model
+- Real-time Streamlit dashboard
+- SQLite database integration
+- Statistical evaluation and visual analytics
+- Developed in collaboration with the Israel National Cyber Directorate
 
 ## Research Disclaimer
 
