@@ -15,14 +15,6 @@ The following diagram illustrates the database schema used to design the SQLite 
 
 ![Database ERD](./my_final_erd.png)
 
-# Folder Contents
-
-| File | Description |
-|------|-------------|
-| `sql_database.ipynb` | Notebook used to create and populate the SQLite database. |
-| `final_voice_project.db` | Final SQLite database containing the project metadata. |
-| `my_final_erd.png` | Entity-Relationship Diagram (ERD) used to design the database schema. |
-| `erd_final.png` | Screenshot of the implemented SQLite database. |
 
 ---
 
