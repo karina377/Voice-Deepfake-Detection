@@ -99,10 +99,10 @@ This normalized database design minimizes data duplication, improves consistency
 
 The database was developed to:
 
-- organize the metadata of all recordings used throughout the project;
-- maintain relationships between recordings and their associated attributes;
-- support efficient querying and future data analysis;
-- provide a structured representation of the datasets used during the data preparation stage.
+- organize the metadata of all recordings used throughout the project
+- maintain relationships between recordings and their associated attributes
+- support efficient querying and future data analysis
+- provide a structured representation of the datasets used during the data preparation stage
 
 
 
